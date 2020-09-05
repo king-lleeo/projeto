@@ -5,6 +5,56 @@
 
 </head>
 <body>
+	<table border="1" align="center" bgcolor="red" bordercolor="black" cellspacing="2" cellpadding="4">
+		<tr>
+			<th>Comando</th>
+			<th>Função</th>
+		</tr>
+		<tr>
+			<th>git config –-global user.name [SEU NOME]</th>
+			<th>Define o nome de usuário do sitema git</th>
+		</tr>
+		<tr>
+			<th>git config -–global user.email [SEU EMAIL]</th>
+			<<th>Define o email de usuário do sitema git</th>
+		</tr>
+		<tr>
+			<th>git init –-bare [NOMEDOPROJETO].git</th>
+			<th>Inicia um projeto com versionamento git</th>
+		</tr>
+		<tr>
+			<th>git clone [CAMINHODAPASTADOPROJETO]</th>
+			<th>Clona o diretório padrão do projeto</th>
+		</tr>
+		<tr>
+			<th>git remote add origin [CAMINHODAPASTADOPROJETO]</th>
+			<th>Define a pasta de projeto como o diretório original do projeto</th>
+		</tr>
+		<tr>
+			<th>git pull origin [BRANCH] </th>
+			<th>Atualiza o branch do seu repositório com a ultima versão do branch do repositório de origem</th>
+		</tr>
+		<tr>
+			<th>git add [ARQUIVO]</th>
+			<th>Propor mudanças em um arquivo (Adiciona-la ao index do seu diretório padrão)</th>
+		</tr>
+		<tr>
+			<th>git commit</th>
+			<th>Armazena o conteúdo atual do índice no HEAD do seu diretório padrão</th>
+		</tr>
+		<tr>
+			<th>git push -u origin [BRANCH]</th>
+			<th>Envia as ultimas modificações que estão no HEAD do seu diretório padrão, do BRANCH selecionado para o BRANCH do projeto de origem</th>
+		</tr>
+		<tr>
+			<th>git checkout [BRANCH]</th>
+			<th>muda o branch ativo para o branch informado</th>
+		</tr>
+		<tr>
+			<th>gitk</th>
+			<th>Abre a interface gráfica padrão do git.</th>
+		</tr>
+	</table>
 
 	<button id="button1">Voltar</button>
 
