@@ -11,6 +11,27 @@
 	</script><br>
 </head>
 <body>
+	<font size="5">
+	Para que serve o commit e qual a melhor forma de utilizá-lo?
+	</font><br>
+	Commits também são feitos em sistemas de controle de versão para código fonte como o Subversion, Mercurial, Git ou CVS. Um commit nestes sistemas de controle de versão refere-se a submeter as últimas alterações do código fonte ao repositório e fazer com que estas alterações se tornem parte da versão principal do repositório. Assim quando outros usuários fazem um UPDATE ou um checkout do repositório, eles receberão a versão enviada mais recentemente, a menos que eles especifiquem que querem recuperar uma versão anterior do código fonte no repositório. Sistemas de controle de versão também possuem funcionalidade similar aos bancos de dados SQL, que permitem reverter facilmente às versões anteriores. Neste contexto, um commit com um sistema de controle de versões não é tão perigoso, uma vez que ele permite uma fácil reversão, mesmo após o commit já ter sido feito.<br>
+	<font size="5">
+	Qual a diferença entre commit e push?
+	</font><br>
+	Basicamente enquanto commit coloca suas alterações em seu repositório local, o git Push envia suas alterações para o um local remoto.	<br>
+	<font size="5">
+	O que é tag?
+	</font><br>
+	São etiquetas que demarcam um ponto (ou seja um commit) que representa alguma mudança significativa no seu código, ou seja, uma versão do seu projeto, por exemplo o primeiro arquivo seria a versao/tag 0.0.0 o proximo commit feito levara a tag de 0.1.0, demarcando um upload de versao para identificar alteraçõs.<br>
+	<font size="5">
+	O que é branch?
+	</font><br>
+	Uma ramificação no git, é um ponteiro para as alterações feitas nos arquivos do projeto. Muito util em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master.<br>
+	<font size="5">
+	Como resolver possíveis conflitos no Git?
+	</font><br>
+	Primeiramente, precisamos localizar todos os arquivos onde ocorreram conflitos, podemos usar uma linha de comando: "CONFLICT (content): Merge conflict in index.html" Ao final da linha você tem o arquivo onde ocorreu o conflito, mas se por acaso você já fechou o terminal e não tem indicação de quais arquivos tem conflito, você pode usar git status e ver quais arquivos foram modificados pelo merge ou fazer uma busca geral no projeto (dependendo do seu editor de código pode ser Ctrl + Shift + F) por "<<<<<<<", ou "=======". Para resolver o conflito, portanto, é preciso alterar o arquivo para que contenha apenas uma versão. Apagando o código incorreto e removendo as marcações de conflito. <br>
+
 
 
 </body>
