@@ -5,7 +5,13 @@
 
 </head>
 <body>
+	<button id="button1">Voltar</button>
 
+	<script type="text/javascript">
+    document.getElementById("button1").onclick = function () {
+        location.href = "file:///C:/Users/leona/OneDrive/Área%20de%20Trabalho/teste/pagina2.html";
+    };
+	</script>
 
 </body>
 
