@@ -6,7 +6,20 @@
 </head>
 <body>
 
+	<button id="button1">Voltar</button>
 
+	<script type="text/javascript">
+    document.getElementById("button1").onclick = function () {
+        location.href = "file:///C:/Users/leona/OneDrive/Área%20de%20Trabalho/teste/pagina1.html";
+    };
+	</script>
+	<button id="myButton">Flow</button>
+
+	<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "file:///C:/Users/leona/OneDrive/Área%20de%20Trabalho/teste/pagina3.html";
+    };
+	</script>
 </body>
 
 </html>
