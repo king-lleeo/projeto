@@ -5,7 +5,37 @@
 
 </head>
 <body>
-	<button id="button1">Voltar</button>
+		<table border="1" align="center" bgcolor="red" bordercolor="black" cellspacing="2" cellpadding="4">
+		<tr>
+			<th>Comando</th>
+			<th>Função</th>
+		</tr>
+		<tr>
+			<th>git flow feature start [NOMEDORECURSOQUEVOCÊQUERCRIAR]</th>
+			<th>Cria um branch feature/[NOMEDORECURSOQUEVOCÊQUERCRIAR] para o desenvolvimento de novos recursos</th>
+		</tr>
+		<tr>
+			<th>git flow feature finish [NOMEDORECURSOQUEVOCÊQUERCRIAR]</th>
+			<th>Finaliza o branch feature/[NOMEDORECURSOQUEVOCÊQUERCRIAR] unindo o mesmo com o branch develop</th>
+		</tr>
+		<tr>
+			<th>git flow release start [versão]</th>
+			<th>Cria um branch release/[VERSAO] para preparar o código para unir com o branch master</th>
+		</tr>
+		<tr>
+			<th>git flow release finish [versão]</th>
+			<th>Finaliza o branch release/[VERSAO] unindo o mesmo com o branch master</th>
+		</tr>
+		<tr>
+			<th>git flow hotfix start [versão]</th>
+			<th>Cria um branch hotfix/[VERSAO] para a correção de bugs críticos</th>
+		</tr>
+		<tr>
+			<th>git flow hotfix finish [versão]</th>
+			<th>Finaliza o branch hotfix/[VERSAO] unindo o mesmo com o branch master</th>
+		</tr>
+		</table>
+		<button id="button1">Voltar</button>
 
 	<script type="text/javascript">
     document.getElementById("button1").onclick = function () {
